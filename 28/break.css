@@ -1,0 +1,53 @@
+@media(max-width:600px){
+    /* phones */
+    body{
+        background-color: red;
+    }
+    div::after{
+        content: "thos is for moble00";
+    }
+
+}
+
+@media(min-width:600px){
+    /* for potrait tablet and pjones */
+    body{
+        background-color: green;
+    }
+    div::after{
+        content: "big phones and potrait tablets";
+    }
+}
+@media(min-width:768px){
+    /* for landscape tablets */
+    body{
+        background-color: yellow;
+    }
+    div::after{
+        content: " tablets";
+    }
+}
+
+@media(min-width:992px){
+    /* for large devoces  */
+    body{
+        background-color: aqua;
+    }
+    div::after{
+        content: " large devoices ";
+    }
+}
+@media(min-width:1200px){
+    /* for large laptops */
+    body{
+        background-color: orange;
+    }
+    div::after{
+        content: " large laptops";
+    }
+}
+
+div{
+    text-align: center;
+    font-size: x-large;
+}
